@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap");
+
+
+  #welcome h1 {
+    z-index: 500;
+    
+    height: 72px;
+    
+    -webkit-text-stroke: 1px black;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 0.205em;
+    color: #f0f0f0;
+    text-shadow: 10px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  #welcome .welcome-image {
+    z-index: 500;
+    bottom: 0;
+    left: 100px;
+  }
+  .rightside {
+    position: absolute;
+    width: 55%;
+    height: 95%;
+    right: 0%;
+    top: 5%;
+    background: #ffffff;
+    border-top-left-radius: 30px;
+    border: 3px solid #f0f0f0;
+    border-bottom-right-radius: 30px;
+  }
+  .rightside-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .homecard {
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    height: 350px;
+    background-color: rgb(105, 139, 139);
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 4px -4px 10px rgba(14, 10, 79, 0.4),
+      -4px 4px 10px rgba(14, 10, 79, 0.4);
+  }
+  .homecard h2 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.36em;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .homecard p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 51px;
+    letter-spacing: 0.32em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .colortext {
+    color: yellow;
+  }
+  .homecard button {
+    width: 180px;
+    height: 50px;
+    color: white;
+    background: #fdde24;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+  }
+  .homecard button:hover {
+    width: 185px;
+    height: 55px;
+    color: white;
+    background: #fdde24;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+  }
+  .postsearch-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+  }
+ .postsearch select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid black;
+    background: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.205em;
+    color: rgba(0, 0, 0, 0.47);
+    padding-left: 10px;
+  }
+  .postsearch input {
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.205em;
+    color: rgba(0, 0, 0, 0.47);
+    padding-left: 10px;
+  }
+
+  

@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/template', function(){
+    return view('template');
+});
+
+Auth::routes();
+
+Route::get('/',function(){
     return view('welcome');
 });
+
+Route::group(['namespace' => 'Posts'], function(){
+    Route::get('/post_show','PostController@post_show')->name('post_show');
+    Route::get('/create_post','PostController@post_create')->name('create_post');
+});
+
+Route::group(['namespace' => 'Main'], function() {
+    Route::get('/main', 'IndexController')->name('main');
+});
+
+

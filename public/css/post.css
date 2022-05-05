@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap");
+
+.post_show {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-size: 16px;
+
+
+
+  box-sizing: border-box;
+}
+
+.post_show header {
+  padding: 15px;
+}
+
+.post_show p {
+  color: black;
+}
+
+.header-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post_show header nav a {
+  margin-left: 40px;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.155em;
+  color: #000000;
+  font-weight: 700;
+}
+
+.post_show header nav a:first-child {
+  margin-left: 0;
+}
+.post_show .welcome-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.post_show .inner {
+  padding: 60px 0;
+}
+
+.post_show .welcome-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post_show .welcome-text {
+  max-width: 50%;
+}
+.post_show .welcome-details {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 149.9%;
+  /* or 63px */
+
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.post_show #welcome img {
+  width: 480px;
+  max-width: 50%;
+}
+.post_show #post {
+  width: 85%;
+  margin: 0 auto;
+}
+.postinfo-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.post-details {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 149.9%;
+  /* or 45px */
+
+  text-align: justify;
+  letter-spacing: 0.22em;
+
+  color: #000000;
+}
+.infor img {
+  float: left;
+  margin: 7px 7px 0px 0;
+}
+.postinfo-flex p {
+  font-size: 12px;
+}
+.infol {
+  display: flex;
+  justify-content: space-around;
+}
+.comment {
+  width: 60px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#chat {
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 18px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.message-text {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.name img {
+  float: left;
+  margin-right: 20px;
+}
+.span {
+  display: flex;
+  justify-content: space-between;
+}
+.span a {
+  margin: 10px;
+  text-decoration: none;
+}
+.chat-flex a {
+  text-decoration: none;
+  margin-top: 30px;
+}
+.mymessage-text input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.mymessage-text {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.message button {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 240, 240, 0.8) 0%,
+    rgba(14, 10, 79, 0.52) 100%
+  );
+  color: white !important;
+  margin-top: 50px;
+}
+.footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description {
+  width: 35%;
+}
+
+.description p {
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.links {
+  width: 10%;
+}
+
+.links ul {
+  line-height: 1.5;
+}
+
+.links ul li {
+  margin-bottom: 15px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+form {
+  position: relative;
+}
+
+.footerinput {
+  display: block;
+  width: 90%;
+  height: 30px;
+  line-height: 3em;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.btn {
+  position: absolute;
+  width: 60px;
+  top: 0%;
+  right: 0%;
+  height: 2.4em;
+  border-radius: 0px 5px 5px 0px;
+  background-image: url("../images/submit.png");
+}
+
